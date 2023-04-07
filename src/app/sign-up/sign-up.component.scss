@@ -1,3 +1,20 @@
 .sign-up-container {
   @apply w-full max-w-md mx-auto;
+  height: 90vh;
+  margin-top: 5vh;
+  display: flex;
+  border-radius: 50px;
+  flex-direction: column;
+}
+
+h2 {
+  @apply text-gray-800;
+}
+
+input {
+  @apply border-gray-300;
+}
+
+button {
+  @apply bg-primary hover:bg-primary-focus text-white;
 }
